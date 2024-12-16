@@ -7,14 +7,14 @@ const assaultRifles: weaponPrimary[] = [
         imagePath: 'https://static.wikia.nocookie.net/helldivers_gamepedia/images/2/20/AR-23_Liberator.png/revision/latest/scale-to-width-down/249?cb=20240429065022',
     },
     {
-    name: 'Liberator Penetrator',  
-    type: 'Assault Rifles',
-    imagePath: 'https://static.wikia.nocookie.net/helldivers_gamepedia/images/1/1b/AR-23P_Liberator_Penetrator.png/revision/latest/scale-to-width-down/380?cb=20240429065117',
+        name: 'Liberator Penetrator',  
+        type: 'Assault Rifles',
+        imagePath: 'https://static.wikia.nocookie.net/helldivers_gamepedia/images/1/1b/AR-23P_Liberator_Penetrator.png/revision/latest/scale-to-width-down/380?cb=20240429065117',
     }, 
     {
-    name: 'Liberator Concussive',  
-    type: 'Assault Rifles',
-    imagePath: 'https://static.wikia.nocookie.net/helldivers_gamepedia/images/6/6d/AR-23C_Liberator_Concussive.png/revision/latest/scale-to-width-down/249?cb=20240429070328',
+        name: 'Liberator Concussive',  
+        type: 'Assault Rifles',
+        imagePath: 'https://static.wikia.nocookie.net/helldivers_gamepedia/images/6/6d/AR-23C_Liberator_Concussive.png/revision/latest/scale-to-width-down/249?cb=20240429070328',
     }  ,
     {
         name: 'Adjudicator',
@@ -128,4 +128,6 @@ const explosive: weaponPrimary[] = [
     }
 ]
 
-export {assaultRifles, submachineGuns,shotguns, marksmanRifles, energyWeapons, explosive}
+const primaryWeapons: weaponPrimary[] = [...assaultRifles, ...submachineGuns, ...shotguns, ...marksmanRifles, ...energyWeapons, ...explosive]
+
+export {primaryWeapons}
