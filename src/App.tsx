@@ -6,7 +6,7 @@ import Weapon from './components/weapon'
 
 import { primaryWeapons } from './assets/weapons/primaryWeapons'
 
-const testWep = primaryWeapons[0]
+const randomWeapon = primaryWeapons[Math.floor(Math.random() * primaryWeapons.length)]
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +33,7 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Weapon {...testWep}/>
+      <Weapon {...randomWeapon}/>
     </>
   )
 }
