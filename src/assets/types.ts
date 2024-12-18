@@ -2,29 +2,34 @@ interface booster {
     name: string;
     imagePath: string;
     effect: string;
+    attributeLink: string;
 }
 
 interface grenade {
     name: string;
     imagePath: string;
+    attributeLink: string;
 }
 
 interface weaponPrimary {
         name: string;
-        type: 'Assault Rifles' | 'Submachine Guns' | 'Shotguns' |'Marksman Rifles' | 'Energy Weapons' | 'Explosive';
+        type: 'Assault Rifles' | 'Submachine Guns' | 'Shotguns' |'Marksman Rifles' | 'Energy Weapons' | 'Explosive' | 'Special';
         imagePath: string;
+        attributeLink: string;
     }
 
 interface weaponSecondary {
     name: string;
     type: 'Ballistic' | 'Special' | 'Melee';
     imagePath: string;
+    attributeLink: string;
 }
 
 interface weaponSupport {
     name: string;
     type: 'Machine Guns' | 'Rifles' | 'Launchers' | 'Special';
     imagePath: string;
+    attributeLink: string;
 }
 
 interface offensive {
@@ -33,6 +38,7 @@ interface offensive {
     subType: 'Eagle' | 'Orbital Strike'
     subPriority: 1 | 2;
     imagePath: string;
+    attributeLink: string;
 }
 
 interface supply {
@@ -41,12 +47,14 @@ interface supply {
     subType: 'Support Weapons' | 'Backpacks' | 'Vehicles'
     subPriority: 1 | 2 | 3;
     imagePath: string;
+    attributeLink: string;
 }
 
 interface defensive {
     name: string;
     priority: 3;
     imagePath: string;
+    attributeLink: string;
 }
 
 type stratagem = offensive | supply | defensive
