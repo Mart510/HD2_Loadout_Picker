@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Weapon from './components/weapon'
 
-import { primaryWeapons } from '../public/assets/weapons/primaryWeapons'
+import { primaryWeapons } from './assets/weapons/primaryWeapons'
 
 const randomWeapon = primaryWeapons[Math.floor(Math.random() * primaryWeapons.length)]
 

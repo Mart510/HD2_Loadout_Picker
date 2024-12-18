@@ -1,6 +1,6 @@
 // import type
 
-import { weaponPrimary, weaponSecondary } from "../../public/assets/types";
+import { weaponPrimary, weaponSecondary } from "../assets/types";
 
 const Weapon = (weaponObj: weaponPrimary | weaponSecondary): JSX.Element => {
     return (

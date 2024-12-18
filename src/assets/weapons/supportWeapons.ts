@@ -1,4 +1,4 @@
-import type { weaponSupport } from "../types";
+import type { weaponSupport } from "../types"
 
 const machineGuns: weaponSupport[] = [
     {
