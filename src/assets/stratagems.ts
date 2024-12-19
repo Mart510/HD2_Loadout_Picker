@@ -8,7 +8,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Eagle',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Strafing_Run_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3097'
     },
     {
         name: 'Eagle Airstrike',
@@ -16,7 +16,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Eagle',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Airstrike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3092'
     },
     {
         name: 'Eagle Cluster Bomb',
@@ -24,7 +24,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Eagle',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Cluster_Bomb_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3094'
     },
     {
         name: 'Eagle Napalm Strike',
@@ -32,7 +32,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Eagle',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Napalm_Airstrike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3095'
     },
     {
         name: 'Eagle Smoke Strike',
@@ -40,7 +40,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Eagle',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Smoke_Strike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3096'
     },
     {
         name: 'Eagle 110mm Rocket Pods',
@@ -48,7 +48,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Eagle',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_110MM_Rocket_Pods_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3090'
     },
     {
         name: 'Eagle 500kg Bomb',
@@ -56,7 +56,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Eagle',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_500KG_Bomb_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3091'
     },
     // Orbital Strikes
     {
@@ -65,7 +65,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Precision_Strike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3085'
     },
     {
         name: 'Orbital Airbusrt Strike',
@@ -73,7 +73,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Airburst_Strike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3080'
     },
     {
         name: 'Orbital 120mm HE Barrage',
@@ -81,7 +81,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_120MM_HE_Barrage_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3078'
     },
     {
         name: 'Orbital 380mm HE Barrage',
@@ -89,7 +89,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_380MM_HE_Barrage_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3079'
     },
     {
         name: 'Orbital Walking Barrage',
@@ -97,7 +97,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Walking_Barrage_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3088'
     },
     {
         name: 'Orbital Laser',
@@ -105,7 +105,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Laser_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3084'
     },
     {
         name: 'Orbital Railcannon Strike',
@@ -113,7 +113,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Railcannon_Strike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3086'
     },
     {
         name: 'Orbital Gatling Barrage',
@@ -121,7 +121,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Gatling_Barrage_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3083'
     },
     {
         name: 'Orbital Gas Strike',
@@ -129,7 +129,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Gas_Strike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3082'
     },
     {
         name: 'Orbital EMS Strike',
@@ -137,7 +137,7 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_EMS_Strike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3081'
     },
     {
         name: 'Orbital Smoke Strike',
@@ -145,7 +145,15 @@ const offensiveStratagems: offensive[] = [
         subType: 'Orbital Strike',
         subPriority: 1,
         imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Smoke_Strike_Icon.webp',
-        attributeLink: ''
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3087'
+    },
+    {
+        name: 'Orbital Napalm Barrage',
+        priority: 1,
+        subType: 'Orbital Strike',
+        subPriority: 1,
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Smoke_Strike_Icon.webp',
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=7410'
     },
 ]
 
