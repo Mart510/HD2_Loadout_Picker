@@ -136,7 +136,7 @@ const energyWeapons: weaponPrimary[] = [
     {
         name: 'Scythe',
         type: 'Energy Weapons',
-        imagePath: '/assets/images/primaryLAS-5_Scythe_Weapon_Icon.png',
+        imagePath: '/assets/images/primary/LAS-5_Scythe_Weapon_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3000'
     },
     {
@@ -176,7 +176,7 @@ const explosive: weaponPrimary[] = [
     {
         name: 'Eruptor',
         type: 'Explosive',
-        imagePath: '/assets/images/primaryR-36_Eruptor_Weapon_Icon.png',
+        imagePath: '/assets/images/primary/R-36_Eruptor_Weapon_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=5360'
     },
     {
