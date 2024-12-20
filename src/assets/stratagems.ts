@@ -7,7 +7,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Eagle',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Strafing_Run_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Strafing_Run_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3097'
     },
     {
@@ -15,7 +15,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Eagle',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Airstrike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Airstrike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3092'
     },
     {
@@ -23,7 +23,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Eagle',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Cluster_Bomb_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Cluster_Bomb_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3094'
     },
     {
@@ -31,7 +31,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Eagle',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Napalm_Airstrike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Napalm_Airstrike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3095'
     },
     {
@@ -39,7 +39,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Eagle',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Smoke_Strike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_Smoke_Strike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3096'
     },
     {
@@ -47,7 +47,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Eagle',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_110MM_Rocket_Pods_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_110MM_Rocket_Pods_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3090'
     },
     {
@@ -55,7 +55,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Eagle',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_500KG_Bomb_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Eagle_500KG_Bomb_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3091'
     },
     // Orbital Strikes
@@ -64,7 +64,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Precision_Strike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Precision_Strike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3085'
     },
     {
@@ -72,7 +72,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Airburst_Strike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Airburst_Strike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3080'
     },
     {
@@ -80,7 +80,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_120MM_HE_Barrage_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_120MM_HE_Barrage_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3078'
     },
     {
@@ -88,7 +88,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_380MM_HE_Barrage_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_380MM_HE_Barrage_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3079'
     },
     {
@@ -96,7 +96,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Walking_Barrage_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Walking_Barrage_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3088'
     },
     {
@@ -104,7 +104,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Laser_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Laser_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3084'
     },
     {
@@ -112,7 +112,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Railcannon_Strike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Railcannon_Strike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3086'
     },
     {
@@ -120,7 +120,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Gatling_Barrage_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Gatling_Barrage_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3083'
     },
     {
@@ -128,7 +128,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Gas_Strike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Gas_Strike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3082'
     },
     {
@@ -136,7 +136,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_EMS_Strike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_EMS_Strike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3081'
     },
     {
@@ -144,7 +144,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Smoke_Strike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Smoke_Strike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3087'
     },
     {
@@ -152,7 +152,7 @@ const offensiveStratagems: offensive[] = [
         priority: 1,
         subType: 'Orbital Strike',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Smoke_Strike_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Orbital_Smoke_Strike_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=7410'
     },
 ]
@@ -161,91 +161,91 @@ const defensiveStratagems: defensive[] = [
     {
         name: 'Telsa Tower',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/A_ARC-3_Tesla_Tower_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/A_ARC-3_Tesla_Tower_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2998'
     },
     {
         name: 'Mortar Sentry',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/A_M-12_Mortar_Sentry_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/A_M-12_Mortar_Sentry_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3077'
     },
     {
         name: 'EMS Mortar Sentry',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/A-M-23_EMS_Mortar_Sentry_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/A-M-23_EMS_Mortar_Sentry_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3719'
     },
     {
         name: 'Machine Gun Sentry',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/A_MG-43_Machine_Gun_Sentry_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/A_MG-43_Machine_Gun_Sentry_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2988'
     },
     {
         name: 'Gatling Sentry',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/A_G-16_Gatling_Sentry_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/A_G-16_Gatling_Sentry_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2981'
     },
     {
         name: 'Anti-Personnel Minefield',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/MD-6_Anti-Personnel_Minefield_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/MD-6_Anti-Personnel_Minefield_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2973'
     },
     {
         name: 'Incendiary Minefield',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/MD-I4_Incendiary_Mines_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/MD-I4_Incendiary_Mines_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3501'
     },
     {
         name: 'Anti-Tank Mines',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/MD-I4_Incendiary_Mines_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/MD-I4_Incendiary_Mines_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=5881'
     },
     {
         name: 'Gas Mines',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/MD-I4_Incendiary_Mines_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/MD-I4_Incendiary_Mines_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=8797'
     },
     {
         name: 'Shield Generator Relay',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/FX-12_Shield_Generator_Relay_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/FX-12_Shield_Generator_Relay_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2994'
     },
     {
         name: 'HMG Emplacement',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/E_MG-101_HMG_Emplacement_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/E_MG-101_HMG_Emplacement_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2985'
     },
     {
         name: 'Anit-Tank Emplacement',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/E_MG-101_HMG_Emplacement_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/E_MG-101_HMG_Emplacement_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=9081'
     },
     {
         name: 'Autocannon Sentry',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/A_AC-8_Autocannon_Sentry_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/A_AC-8_Autocannon_Sentry_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2975'
     },
     {
         name: 'Rocket Sentry',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/A_MLS-4X_Rocket_Sentry_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/A_MLS-4X_Rocket_Sentry_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2992'
     },
     {
         name: 'Rocket Sentry',
         priority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/A_MLS-4X_Rocket_Sentry_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/A_MLS-4X_Rocket_Sentry_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=9080'
     },
 ]
@@ -256,7 +256,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/RL-77_Airburst_Rocket_Launcher_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/RL-77_Airburst_Rocket_Launcher_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=5880'
     },
     {
@@ -264,7 +264,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/AC-8_Autocannon_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/AC-8_Autocannon_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2976'
     },
     {
@@ -272,7 +272,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/EAT-17_Expendable_Anti-Tank_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/EAT-17_Expendable_Anti-Tank_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2979'
     },
     {
@@ -280,7 +280,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/FLAM-40_Flamethrower_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/FLAM-40_Flamethrower_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2980'
     },
     {
@@ -288,7 +288,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/LAS-98_Laser_Cannon_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/LAS-98_Laser_Cannon_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2987'
     },
     {
@@ -296,7 +296,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/M-105_Stalwart_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/M-105_Stalwart_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2996'
     },
     {
@@ -304,7 +304,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/MG-43_Machine_Gun_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/MG-43_Machine_Gun_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2989'
     },
     {
@@ -312,7 +312,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/ARC-3_Arc_Thrower_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/ARC-3_Arc_Thrower_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2974'
     },
     {
@@ -320,7 +320,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/GL-21_Grenade_Launcher_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/GL-21_Grenade_Launcher_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2982'
     },
     {
@@ -328,7 +328,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/APW-1_Anti-Materiel_Rifle_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/APW-1_Anti-Materiel_Rifle_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2972'
     },
     {
@@ -336,7 +336,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/RS-422_Railgun_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/RS-422_Railgun_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2990'
     },
     {
@@ -344,7 +344,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/GR-8_Recoilless_Rifle_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/GR-8_Recoilless_Rifle_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2991'
     },
     {
@@ -352,7 +352,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/FAF-14_Spear_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/FAF-14_Spear_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2990'
     },
     {
@@ -360,7 +360,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/LAS-99_Quasar_Cannon_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/LAS-99_Quasar_Cannon_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2974'
     },
     {
@@ -368,7 +368,7 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/MG-206_Heavy_Machine_Gun_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/MG-206_Heavy_Machine_Gun_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=4167'
     },
     {
@@ -376,14 +376,14 @@ const supplySupportWeapons: supply[] = [
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/CommandoIcon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/CommandoIcon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=7113'
     },    {
         name: 'TX-41 Sterilizer',
         priority: 2,
         subType: 'Support Weapons',
         subPriority: 1,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Sterilizer_Stratagem_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Sterilizer_Stratagem_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=7448'
     },
 ]
@@ -394,7 +394,7 @@ const supplyBackpacks: supply[] = [
         priority: 2,
         subType: 'Backpacks',
         subPriority: 2,
-        imagePath: '/assets/images/stratagems/offensive/eagle/AX_AR-23_Guard_Dog_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/AX_AR-23_Guard_Dog_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2983'
     },
     {
@@ -402,7 +402,7 @@ const supplyBackpacks: supply[] = [
         priority: 2,
         subType: 'Backpacks',
         subPriority: 2,
-        imagePath: '/assets/images/stratagems/offensive/eagle/AX_LAS-5_Guard_Dog_Rover_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/AX_LAS-5_Guard_Dog_Rover_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2984'
     },
     {
@@ -410,7 +410,7 @@ const supplyBackpacks: supply[] = [
         priority: 2,
         subType: 'Backpacks',
         subPriority: 2,
-        imagePath: '/assets/images/stratagems/offensive/eagle/Guard_Dog_Dog_Breath_Stratagem_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/Guard_Dog_Dog_Breath_Stratagem_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=7454'
     },
     {
@@ -418,7 +418,7 @@ const supplyBackpacks: supply[] = [
         priority: 2,
         subType: 'Backpacks',
         subPriority: 2,
-        imagePath: '/assets/images/stratagems/offensive/eagle/LIFT-850_Jump_Pack_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/LIFT-850_Jump_Pack_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2986'
     },
     {
@@ -426,7 +426,7 @@ const supplyBackpacks: supply[] = [
         priority: 2,
         subType: 'Backpacks',
         subPriority: 2,
-        imagePath: '/assets/images/stratagems/offensive/eagle/B-1_Supply_Pack_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/B-1_Supply_Pack_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2997'
     },
     {
@@ -434,7 +434,7 @@ const supplyBackpacks: supply[] = [
         priority: 2,
         subType: 'Backpacks',
         subPriority: 2,
-        imagePath: '/assets/images/stratagems/offensive/eagle/SH-32_Shield_Generator_Pack_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/SH-32_Shield_Generator_Pack_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2993'
     },
     {
@@ -442,7 +442,7 @@ const supplyBackpacks: supply[] = [
         priority: 2,
         subType: 'Backpacks',
         subPriority: 2,
-        imagePath: '/assets/images/stratagems/offensive/eagle/SH-20_Ballistic_Shield_Backpack_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/SH-20_Ballistic_Shield_Backpack_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2977'
     },
     {
@@ -450,7 +450,7 @@ const supplyBackpacks: supply[] = [
         priority: 2,
         subType: 'Backpacks',
         subPriority: 2,
-        imagePath: '/assets/images/stratagems/offensive/eagle/SH-20_Ballistic_Shield_Backpack_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/SH-20_Ballistic_Shield_Backpack_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=9069'
     },
 ]
@@ -461,7 +461,7 @@ const supplyVehicles: supply[] = [
         priority: 2,
         subType: 'Vehicles',
         subPriority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/EXO-45_Patriot_Exosuit_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/EXO-45_Patriot_Exosuit_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=3099'
     },
     {
@@ -469,7 +469,7 @@ const supplyVehicles: supply[] = [
         priority: 2,
         subType: 'Vehicles',
         subPriority: 3,
-        imagePath: '/assets/images/stratagems/offensive/eagle/EXO-49_Emancipator_Exosuit_Icon.webp',
+        imagePath: '/assets/images/stratagems/offensive/eagle/EXO-49_Emancipator_Exosuit_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=6622'
     },
 

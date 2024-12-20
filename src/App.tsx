@@ -5,8 +5,17 @@ import './App.css'
 import Weapon from './components/weapon'
 
 import { primaryWeapons } from './assets/weapons/primaryWeapons'
+import { secondaryWeapons } from './assets/weapons/secondaryWeapons'
+import { grenades } from './assets/weapons/grenades'
+import { boosters } from './assets/booster'
+import { stratagems } from './assets/stratagems'
 
-const randomWeapon = primaryWeapons[Math.floor(Math.random() * primaryWeapons.length)]
+const randomPrimary = primaryWeapons[Math.floor(Math.random() * primaryWeapons.length)]
+const randomSecondary = secondaryWeapons[Math.floor(Math.random() * secondaryWeapons.length)]
+const randomGrenade = grenades[Math.floor(Math.random() * grenades.length)]
+const randomBooster = boosters[Math.floor(Math.random() * boosters.length)]
+const randomStratagem = stratagems[Math.floor(Math.random() * stratagems.length)]
+
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +42,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Weapon {...randomWeapon}/>
+      <Weapon {...randomPrimary}/>
+      <Weapon {...randomSecondary}/>
     </>
   )
 }
