@@ -6,15 +6,15 @@ import Weapon from './components/weapon'
 
 import { primaryWeapons } from './assets/weapons/primaryWeapons'
 import { secondaryWeapons } from './assets/weapons/secondaryWeapons'
-import { grenades } from './assets/weapons/grenades'
-import { boosters } from './assets/booster'
-import { stratagems } from './assets/stratagems'
+// import { grenades } from './assets/weapons/grenades'
+// import { boosters } from './assets/booster'
+// import { stratagems } from './assets/stratagems'
 
 const randomPrimary = primaryWeapons[Math.floor(Math.random() * primaryWeapons.length)]
 const randomSecondary = secondaryWeapons[Math.floor(Math.random() * secondaryWeapons.length)]
-const randomGrenade = grenades[Math.floor(Math.random() * grenades.length)]
-const randomBooster = boosters[Math.floor(Math.random() * boosters.length)]
-const randomStratagem = stratagems[Math.floor(Math.random() * stratagems.length)]
+// const randomGrenade = grenades[Math.floor(Math.random() * grenades.length)]
+// const randomBooster = boosters[Math.floor(Math.random() * boosters.length)]
+// const randomStratagem = stratagems[Math.floor(Math.random() * stratagems.length)]
 
 
 function App() {
