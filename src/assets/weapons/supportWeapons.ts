@@ -73,6 +73,12 @@ const launchers: weaponSupport[] = [
         imagePath: 'https://static.wikia.nocookie.net/helldivers_gamepedia/images/7/7d/RL-77_Airburst_Rocket_Launcher.png/revision/latest/scale-to-width-down/275?cb=20240501084655',
         attributeLink: ''
     },
+    {
+        name: 'W.A.S.P. Launcher',
+        type: 'Launchers',
+        imagePath: 'https://static.wikia.nocookie.net/helldivers_gamepedia/images/7/7d/RL-77_Airburst_Rocket_Launcher.png/revision/latest/scale-to-width-down/275?cb=20240501084655',
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=9229'
+    },
 ]
 
 const special: weaponSupport[] = [
