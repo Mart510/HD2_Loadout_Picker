@@ -1,49 +1,27 @@
-import { useState } from 'react'
-import reactLogo from '/assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-import Weapon from './components/weapon'
-
-import { primaryWeapons } from './assets/weapons/primaryWeapons'
-import { secondaryWeapons } from './assets/weapons/secondaryWeapons'
-// import { grenades } from './assets/weapons/grenades'
-// import { boosters } from './assets/booster'
-// import { stratagems } from './assets/stratagems'
-
-const randomPrimary = primaryWeapons[Math.floor(Math.random() * primaryWeapons.length)]
-const randomSecondary = secondaryWeapons[Math.floor(Math.random() * secondaryWeapons.length)]
-// const randomGrenade = grenades[Math.floor(Math.random() * grenades.length)]
-// const randomBooster = boosters[Math.floor(Math.random() * boosters.length)]
-// const randomStratagem = stratagems[Math.floor(Math.random() * stratagems.length)]
+import { WeaponsSelector } from './components/WeaponsSelector'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <div className='flex flex-row'>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <h1 className='text-2xl md:text-4xl'>Hell Divers 2 Loadout Rando-mat</h1>
+      <br/>
+      <div className='w-full flex flex-col justify-center items-center'>
+        <button>Randomize Loadout</button>
+        <p className='text-xs md:text-sm'>Don't have the item? just click to re-roll it</p>
       </div>
-      <h1 className="bg-pink-500">Vite + React + Dave</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
+      <br/>
+      <div className='flex flex-col justify-center items-center min-w-full'>
+        {/* Rand all button */}
+        <WeaponsSelector/>
+        {/* stratagem selector */}
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-      <Weapon {...randomPrimary}/>
-      <Weapon {...randomSecondary}/>
+      <footer>
+        <p>All data from <a href="https://helldivers.wiki.gg/wiki/Main_Page">Helldivers Wiki</a></p>
+        <p>Created by <a href="https://github.com/Mart510">Martyn Billings</a></p>
+      </footer>
     </>
   )
 }
