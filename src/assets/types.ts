@@ -7,13 +7,14 @@ interface booster {
 
 interface grenade {
     name: string;
+    type: 'Standard' | 'Special'
     imagePath: string;
     attributeLink: string;
 }
 
 interface weaponPrimary {
         name: string;
-        type: 'Assault Rifles' | 'Submachine Guns' | 'Shotguns' |'Marksman Rifles' | 'Energy Weapons' | 'Explosive' | 'Special';
+        type: 'Assault Rifles' | 'Submachine Guns' | 'Shotguns' |'Marksman Rifles' | 'Energy Weapons' | 'Explosive' | 'Special' | 'Sniper Rifles';
         imagePath: string;
         attributeLink: string;
     }

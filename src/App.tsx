@@ -6,6 +6,7 @@ import Weapon from './components/weapon'
 
 import { primaryWeapons } from './assets/weapons/primaryWeapons'
 import { secondaryWeapons } from './assets/weapons/secondaryWeapons'
+import { WeaponsSelector } from './components/WeaponsSelector'
 // import { grenades } from './assets/weapons/grenades'
 // import { boosters } from './assets/booster'
 // import { stratagems } from './assets/stratagems'
@@ -42,8 +43,9 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-      <Weapon {...randomPrimary}/>
-      <Weapon {...randomSecondary}/>
+      <WeaponsSelector/>
+      {/* <Weapon {...randomPrimary}/> */}
+      {/* <Weapon {...randomSecondary}/> */}
     </>
   )
 }

@@ -36,6 +36,12 @@ const assaultRifles: weaponPrimary[] = [
         type: 'Assault Rifles',
         imagePath: '/assets/images/primary/BR-14_Adjudicator_Weapon_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=5361'
+    },
+    {
+        name: 'StA-52 Assault Rifle',
+        type: 'Assault Rifles',
+        imagePath: '/assets/images/primary/StA-52_Assault_Rifle_Primary_Weaponry.png',
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=9183'
     }
 ]
 
@@ -132,6 +138,15 @@ const marksmanRifles: weaponPrimary[] = [
     }
 ]
 
+const sniperRifles: weaponPrimary[] = [
+    {
+        name: 'PLAS-39 Accelerator Rifle',
+        type: 'Sniper Rifles',
+        imagePath: '/assets/images/primary/PLAS-39_Accelerator_Rifle_Primary_Weaponry.png',
+        attributeLink: 'https://helldivers.wiki.gg/index.php?curid=9208'
+    }
+]
+
 const energyWeapons: weaponPrimary[] = [
     {
         name: 'Scythe',
@@ -202,6 +217,6 @@ const special: weaponPrimary[] = [
     },
 ]
 
-const primaryWeapons: weaponPrimary[] = [...assaultRifles, ...submachineGuns, ...shotguns, ...marksmanRifles, ...energyWeapons, ...explosive, ...special]
+const primaryWeapons: weaponPrimary[] = [...assaultRifles, ...submachineGuns, ...shotguns, ...marksmanRifles, ...energyWeapons, ...explosive, ...special, ...sniperRifles]
 
 export {primaryWeapons}
