@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <h1 className='text-2xl md:text-4xl xl:text-6xl'>Hell Divers 2 Loadout Rando-mat</h1>
+      <h1 className='text-2xl md:text-4xl'>Hell Divers 2 Loadout Rando-mat</h1>
       <br/>
       <div className='w-full flex flex-col justify-center items-center'>
         <button>Randomize Loadout</button>
