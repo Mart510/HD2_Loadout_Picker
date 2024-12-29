@@ -1,4 +1,5 @@
 import './App.css'
+import { StratAndBoosterContainer } from './components/StratandBoosterContainer'
 import { WeaponsSelector } from './components/WeaponsSelector'
 
 
@@ -17,6 +18,7 @@ function App() {
         {/* Rand all button */}
         <WeaponsSelector/>
         {/* stratagem selector */}
+        <StratAndBoosterContainer/>
       </div>
       <footer>
         <p>All data from <a href="https://helldivers.wiki.gg/wiki/Main_Page">Helldivers Wiki</a></p>
