@@ -7,7 +7,7 @@ type WeaponProps = {
     cardTitle: string
 }
 
-const Weapon = ({weaponArray, cardTitle}: WeaponProps): JSX.Element => {
+const WeaponContainer = ({weaponArray, cardTitle}: WeaponProps): JSX.Element => {
 
     // state for current weapon
     const [currentWeapon, setCurrentWeapon] = useState(() =>
@@ -40,4 +40,4 @@ const Weapon = ({weaponArray, cardTitle}: WeaponProps): JSX.Element => {
     )
 }
 
-export default Weapon
+export {WeaponContainer}
