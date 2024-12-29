@@ -1,5 +1,5 @@
-import { StratagemComp } from "./Stratagem"
-import type { booster, stratagem } from "../assets/types"
+import { StratagemContainer } from "./Stratagem"
+import type { stratagem } from "../assets/types"
 import { useState } from "react"
 
 // type StratandBoosterProps = {
@@ -8,6 +8,7 @@ import { useState } from "react"
 // }
 
 import { stratagems } from "../assets/stratagems"
+import { BoosterContainer } from "./Booster"
 // import { boosters } from "../assets/booster"
 
 // type displayArray = stratagem[] & { length: 4 };
@@ -29,23 +30,30 @@ const StratAndBoosterContainer = (): JSX.Element => {
             returnArray.push(randomStrat)
         }
 
-        console.log('stratArray')
-        console.log(stratArray)
-
-        console.log('returnArray')
-        console.log(returnArray)
-
         // sort the return array
         const sortedArray = stratSort(returnArray)
 
-        console.log('sortedArray')
-        console.log(sortedArray)
         return sortedArray
     }
 
     const refreshAllStrats = () => {
         const newStrats = rollStrats(stratArray)
         setStrats(newStrats)
+    }
+
+    const reRollSingleStrat = (elementIndex:number, arrayOfAllStrats: stratagem[]):void => {
+
+        const currentStratArray = stratsSelected
+
+        const unselectedStratArray = arrayOfAllStrats.filter((strat) => !currentStratArray.some((currentStrat) => (currentStrat.name) === strat.name)
+        )
+
+        const newStrat = unselectedStratArray[Math.floor(Math.random() * unselectedStratArray.length)]
+
+        const updatedArray = [...currentStratArray];
+        updatedArray[elementIndex] = newStrat;
+    
+        setStrats(updatedArray);
     }
 
     // sort strats into order of display for ease of picking
@@ -79,16 +87,17 @@ const StratAndBoosterContainer = (): JSX.Element => {
 
 
     return (
-        <div className="flex flex-row gap-6 justify-evenly h-24 md:h-56 border-2 m-6 rounded-md w-full">
+        <div className="flex flex-row gap-6 justify-evenly h-min border-2 m-6 rounded-md w-full">
             {/* strat 1 */}
-            <StratagemComp ID={1} strat={stratsSelected[0]}/>
+            <StratagemContainer ID={1} strat={stratsSelected[0]} onReRoll={() => reRollSingleStrat(0, stratArray)}/>
             {/* strat 2 */}
-            <StratagemComp ID={2} strat={stratsSelected[1]}/>
+            <StratagemContainer ID={2} strat={stratsSelected[1]} onReRoll={() => reRollSingleStrat(1, stratArray)}/>
             {/* strat 3 */}
-            <StratagemComp ID={3} strat={stratsSelected[2]}/>
+            <StratagemContainer ID={3} strat={stratsSelected[2]} onReRoll={() => reRollSingleStrat(2, stratArray)}/>
             {/* strat 4 */}
-            <StratagemComp ID={4} strat={stratsSelected[3]}/>
+            <StratagemContainer ID={4} strat={stratsSelected[3]} onReRoll={() => reRollSingleStrat(3, stratArray)}/>
             {/* booster */}
+            <BoosterContainer/>
         </div>
     )
 }

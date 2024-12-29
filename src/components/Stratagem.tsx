@@ -2,19 +2,21 @@ import type { stratagem } from "../assets/types"
 
 type StratagemProps = {
     ID: number,
-    strat: stratagem
+    strat: stratagem,
+    onReRoll: () => void
 }
 
 
-const StratagemComp = ({ID, strat}: StratagemProps): JSX.Element => {
+const StratagemContainer = ({ ID, strat, onReRoll}: StratagemProps): JSX.Element => {
     
     return (
-        <div className="flex flex-col justify-between gap-1 h-full p-2 md:p-4" id={String(ID)}>
-            <img className="justify-start object-contain h-4/6 hover:cursor-pointer" src={strat.imagePath} alt={strat.name}/>
+        <div className="flex flex-col gap-1 h-min p-2 md:p-4" id={String(ID)} onClick={onReRoll}>
+            {/* <h3 className="text-base md:text-xl">stratagem {ID}</h3> */}
+            <img className="justify-start object-contain h-32 lg:h-40 hover:cursor-pointer" src={strat.imagePath} alt={strat.name}/>
             <p className=" text-xs md:text-base text-center">{strat.name}</p>
         </div>
     )
 
 }
 
-export {StratagemComp}
+export {StratagemContainer}
