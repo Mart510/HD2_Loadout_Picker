@@ -1,4 +1,4 @@
-import { WeaponContainer } from "./Weapon";
+import { WeaponContainer } from "./weapon";
 
 import { primaryWeapons } from "../assets/weapons/primaryWeapons";
 import { secondaryWeapons } from "../assets/weapons/secondaryWeapons";
