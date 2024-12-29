@@ -5,12 +5,16 @@ import { WeaponsSelector } from './components/WeaponsSelector'
 
 function App() {
 
+  const randomLoadOut = ():void => {
+    location.reload()
+  }
+
   return (
     <>
       <h1 className='text-2xl md:text-4xl'>Hell Divers 2 Loadout Rando-mat</h1>
       <br/>
       <div className='w-full flex flex-col justify-center items-center'>
-        <button>Randomize Loadout</button>
+        <button onClick={randomLoadOut}>Randomize Loadout</button>
         <p className='text-xs md:text-sm'>Don't have the item? just click to re-roll it</p>
       </div>
       <br/>

@@ -36,10 +36,10 @@ const StratAndBoosterContainer = (): JSX.Element => {
         return sortedArray
     }
 
-    const refreshAllStrats = () => {
-        const newStrats = rollStrats(stratArray)
-        setStrats(newStrats)
-    }
+    // const refreshAllStrats = () => {
+    //     const newStrats = rollStrats(stratArray)
+    //     setStrats(newStrats)
+    // }
 
     const reRollSingleStrat = (elementIndex:number, arrayOfAllStrats: stratagem[]):void => {
 
