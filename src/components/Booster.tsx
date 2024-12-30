@@ -27,8 +27,8 @@ const BoosterContainer = (): JSX.Element => {
     }
 
     return (
-        <div className="flex flex-col gap-1 h-min p-2 md:p-4" >
-            <img className="justify-start object-contain h-32 lg:h-40 hover:cursor-pointer" src={currentBooster.imagePath} alt={currentBooster.name} onClick={handleReRoll}/>
+        <div className="flex flex-col gap-1 h-min p-2 md:p-4 max-w-20 md:max-w-48" >
+            <img className="justify-start object-contain h-12 sm:h-32 lg:h-40 hover:cursor-pointer" src={currentBooster.imagePath} alt={currentBooster.name} onClick={handleReRoll}/>
             <p className=" text-xs md:text-base text-center">{currentBooster.name}</p>
         </div>
     )

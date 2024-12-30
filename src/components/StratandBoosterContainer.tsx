@@ -87,7 +87,7 @@ const StratAndBoosterContainer = (): JSX.Element => {
 
 
     return (
-        <div className="flex flex-row gap-6 justify-evenly h-min border-2 m-6 rounded-md w-full">
+        <div className="flex flex-row gap-1 md:gap-6 justify-evenly h-min border-2 rounded-md sm:w-full font-plexMono">
             {/* strat 1 */}
             <StratagemContainer ID={1} strat={stratsSelected[0]} onReRoll={() => reRollSingleStrat(0, stratArray)}/>
             {/* strat 2 */}
