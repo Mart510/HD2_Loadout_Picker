@@ -8,6 +8,10 @@ export default {
     extend: {
       screens: {
         '4xl': '2560px',
+      },
+      fontFamily: {
+        plexMono: ['IBM Plex Mono', 'sans-serif'],
+        zenDot: ['Zen Dots', 'sans-serif'],
       }
     },
   },

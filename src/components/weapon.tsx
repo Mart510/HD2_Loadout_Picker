@@ -32,9 +32,9 @@ const WeaponContainer = ({weaponArray, cardTitle}: WeaponProps): JSX.Element => 
 
 
     return (
-        <div className="flex flex-col gap-1 h-min p-2 md:p-4">
+        <div className="flex flex-col gap-1 h-min p-2 md:p-4 max-w-24 md:max-w-48 lg:max-w-96 font-plexMono">
             <h3 className="text-base md:text-xl">{cardTitle}</h3>
-            <img className="justify-start object-contain h-32 lg:h-40 hover:cursor-pointer" src={currentWeapon.imagePath} alt={currentWeapon.name} onClick={handleReRoll}/>
+            <img className="justify-start object-contain h-12 sm:h-32 lg:h-40 hover:cursor-pointer" src={currentWeapon.imagePath} alt={currentWeapon.name} onClick={handleReRoll}/>
             <p className=" text-xs md:text-base text-center">{currentWeapon.name}</p>
         </div>
     )

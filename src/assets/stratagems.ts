@@ -225,7 +225,7 @@ const defensiveStratagems: defensive[] = [
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=2985'
     },
     {
-        name: 'Anit-Tank Emplacement',
+        name: 'Anti-Tank Emplacement',
         priority: 3,
         imagePath: '/assets/images/stratagems/defensive/E_AT-12_Anti-Tank_Emplacement_Stratagem_Icon.png',
         attributeLink: 'https://helldivers.wiki.gg/index.php?curid=9081'
